@@ -1,0 +1,19 @@
+# Virtual environments
+.venv*/
+
+# Data artifacts are transferred separately and never committed
+data/*
+!data/.gitkeep
+*.csv
+*.pkl
+
+# Jupyter and Python service files
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+
