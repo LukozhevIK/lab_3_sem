@@ -1,0 +1,17 @@
+{
+  "columns": [
+    "numeric__age",
+    "numeric__thalach",
+    "numeric__oldpeak",
+    "numeric__ca",
+    "categorical__sex",
+    "categorical__cp",
+    "categorical__exang",
+    "categorical__slope",
+    "categorical__thal",
+    "polynomial__age thalach",
+    "polynomial__thalach oldpeak",
+    "bins__age",
+    "bins__thalach"
+  ]
+}

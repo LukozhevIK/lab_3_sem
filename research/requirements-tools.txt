@@ -1,0 +1,4 @@
+# Optional tooling for building notebooks and genuine MLflow UI screenshots.
+nbformat==5.11.1
+nbconvert==7.17.1
+playwright==1.51.0

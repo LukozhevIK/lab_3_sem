@@ -1,0 +1,30 @@
+{
+  "columns": [
+    "numeric__age",
+    "numeric__trestbps",
+    "numeric__chol",
+    "numeric__thalach",
+    "numeric__oldpeak",
+    "numeric__ca",
+    "categorical__sex",
+    "categorical__cp",
+    "categorical__fbs",
+    "categorical__restecg",
+    "categorical__exang",
+    "categorical__slope",
+    "categorical__thal",
+    "categorical__age_group",
+    "polynomial__age",
+    "polynomial__thalach",
+    "polynomial__oldpeak",
+    "polynomial__age^2",
+    "polynomial__age thalach",
+    "polynomial__age oldpeak",
+    "polynomial__thalach^2",
+    "polynomial__thalach oldpeak",
+    "polynomial__oldpeak^2",
+    "bins__age",
+    "bins__thalach",
+    "bins__oldpeak"
+  ]
+}

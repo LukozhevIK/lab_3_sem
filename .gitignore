@@ -17,3 +17,11 @@ __pycache__/
 .idea/
 .DS_Store
 
+# MLflow: commit launch script, keep database and model artifacts locally
+mlflow/*
+!mlflow/start_mlflow.sh
+mlruns/
+mlartifacts/
+mlruns.db*
+backups/
+research/.local/

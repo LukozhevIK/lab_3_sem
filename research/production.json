@@ -1,0 +1,57 @@
+{
+  "experiment_name": "Heart_Disease_Lab2",
+  "model_name": "HeartDiseaseClassifier",
+  "production_run_id": "996e0375cdaf4623bad02f88fcf0ea43",
+  "production_version": "3",
+  "production_uri": "models:/HeartDiseaseClassifier@Production",
+  "source_run_id": "0cf92e5838c647e3b8d13ec5c968754d",
+  "source_name": "expert_selection",
+  "feature_set": "expert_selected",
+  "train_rows": 303,
+  "cv_f1_mean": 0.7909216909216908,
+  "test_metrics_of_source_model": {
+    "precision": 0.7692307692307693,
+    "recall": 0.8571428571428571,
+    "f1": 0.8108108108108109,
+    "roc_auc": 0.929616724738676
+  },
+  "parameters": {
+    "n_estimators": 100,
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "random_state": 42
+  },
+  "input_columns": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal",
+    "age_group"
+  ],
+  "transformed_columns": [
+    "numeric__age",
+    "numeric__thalach",
+    "numeric__oldpeak",
+    "numeric__ca",
+    "categorical__sex",
+    "categorical__cp",
+    "categorical__exang",
+    "categorical__slope",
+    "categorical__thal",
+    "polynomial__age thalach",
+    "polynomial__thalach oldpeak",
+    "bins__age",
+    "bins__thalach"
+  ],
+  "dataset_sha256": "410aa6e5e34810dc9c10ce8f25aaf725970291fa8baff77b56fca26af6cc5e72"
+}
